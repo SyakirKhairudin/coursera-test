@@ -18,7 +18,7 @@ body {
 
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand  { /* Restaurant name */
   font-family: 'Trebuchet MS', serif;
   color: Black;
   font-size: 1.5em;
@@ -66,17 +66,24 @@ h2 {
   color: black;
   font-family: "Georgia";
   font-size: 3em;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 h3 {
   color: black;
   font-family: "Times New Roman";
   font-size: 2em;
 }
+#navbarSupportedContent a{
+text-align: center;
+}
 
 #chicken {
   background-color: lightseagreen;
   margin-top: 30px;
   margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 
 }
 #paragraph {
